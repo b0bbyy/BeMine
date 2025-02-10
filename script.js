@@ -7,7 +7,8 @@ document.getElementById("yesButton").addEventListener("click", function() {
     let img = document.createElement("img");
     img.src = "valentine_photo.jpg";
     img.alt = "A cute couple picture";
-    img.style.width = "200px"; // Adjusted size for better display
+    img.style.width = "150px"; // Smaller size for better display
+    img.style.height = "auto";
     img.style.display = "block";
     img.style.margin = "20px auto";
     document.querySelector(".container").appendChild(img);
